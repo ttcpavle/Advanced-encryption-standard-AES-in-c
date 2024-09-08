@@ -319,7 +319,7 @@ void invCipher(State in, State out, Byte expandedKey[4 * Nb * (Nr + 1)]) {
 }
 
 int main() {
-    // Appendix A input example
+    // Appendix B input example
     State input = {
         //row1  row2  row3  row4
         { 0x32, 0x43, 0xf6, 0xa8 }, // column 1
